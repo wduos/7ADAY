@@ -1,0 +1,103 @@
+#LogIn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: var(--spacing-03);
+  background-color: var(--light);
+  background-image: radial-gradient(var(--brown-00) 10%, transparent 10%),
+    radial-gradient(var(--brown-00) 10%, transparent 10%);
+  background-position: 0px 0px, 12px 12px;
+  background-size: 24px 24px;
+}
+
+#login-form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-03);
+  width: 100%;
+  max-width: 25rem;
+  padding: var(--spacing-03);
+  border-top: solid 1px var(--brown-00);
+  border-left: solid 1px var(--brown-00);
+  border-radius: var(--radius-03);
+  background-color: var(--light);
+  box-shadow: 0.5rem 0.5rem 0 var(--brown-00);
+}
+
+#login-user-wrp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-01);
+  width: 100%;
+  height: 9rem;
+}
+
+#login-user-wrp > button {
+  width: 1.5rem;
+  aspect-ratio: 1/1;
+  border: none;
+  border-radius: 50%;
+}
+
+#login-user-wrp > button > img {
+  width: 100%;
+}
+
+#login-user-wrp > button:nth-child(3) > img {
+  transform: rotate(180deg);
+}
+
+#login-user-display {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+#login-user-display > div {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-01);
+  height: 100%;
+}
+
+#login-user-display > div > img {
+  height: 100%;
+  border: solid 1px var(--pink-02);
+  border-radius: 50%;
+}
+
+#login-user-display > div > p {
+  border-radius: var(--radius-01);
+  color: var(--pink-02);
+  font-size: var(--text-01);
+  font-weight: 600;
+}
+
+#login-password {
+  height: 2.5rem;
+  padding: var(--spacing-02);
+  border: solid 1px var(--brown-01);
+  border-radius: var(--radius-01);
+  background-color: transparent;
+}
+
+#login-access {
+  height: 2.5rem;
+  border: solid 1px var(--pink-01);
+  border-radius: var(--radius-01);
+  background-color: var(--pink-00);
+  font-size: var(--text-02);
+  font-weight: 600;
+  transition: 0.4s cubic-bezier(0.56, -0.09, 0, 2);
+  transition-property: transform, background-color;
+}
+
+#login-access:hover {
+  cursor: pointer;
+  background-color: var(--pink-01);
+  transform: scale(104%);
+}
