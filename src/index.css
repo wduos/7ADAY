@@ -8,3 +8,10 @@ body {
   height: 100vh;
   background-color: var(--light);
 }
+
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
