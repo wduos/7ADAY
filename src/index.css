@@ -1,10 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;0,800;1,400&display=swap");
 
 :root {
-  --light: #f9f8f4;
+  --light-00: #f9f9f7;
+  --light-01: #f9f8f4;
   --pink-00: #f7e2e2;
   --pink-01: #fad8db;
   --pink-02: #f5bfc4;
+  --pink-03: #e2949c;
+  --brown-00-dim: #eeeaeab6;
   --brown-00: #eeeaea;
   --brown-01: #b9b1b1;
   --brown-02: #696262;
@@ -22,6 +25,7 @@
   --title-03: 2.25rem;
   --title-04: 2.625rem;
   --max-width: 64rem;
+  --bezier-00: cubic-bezier(0.56, -0.09, 0, 2);
 }
 
 * {
