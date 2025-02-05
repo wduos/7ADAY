@@ -2,8 +2,8 @@
   position: relative;
   height: 100%;
   background-color: var(--light-01);
-  background-image: radial-gradient(var(--brown-00) 9%, transparent 9%),
-    radial-gradient(var(--light-00) 11%, transparent 11%);
+  background-image: radial-gradient(var(--brown-00) 8%, transparent 8%),
+    radial-gradient(var(--brown-00-dim) 15%, transparent 15%);
   background-position: 0px 0px, 12px 12px;
   background-size: 24px 24px;
 }
@@ -18,10 +18,10 @@
   width: calc(100% - var(--spacing-03) * 2);
   max-width: 25rem;
   padding: var(--spacing-03);
-  border: solid 2px var(--brown-00);
+  border: solid 2px var(--brown-01);
   border-radius: var(--radius-02);
   background-color: var(--light-00);
-  box-shadow: 0.5rem 0.5rem 0 var(--brown-00-dim);
+  box-shadow: 0.5rem 0.5rem 0 var(--brown-00);
   animation: float 1s alternate infinite ease-in-out;
 }
 
@@ -121,16 +121,16 @@
   height: 2.5rem;
   padding: var(--spacing-02);
   padding-left: calc(var(--spacing-02) + 1rem + var(--spacing-01));
-  border: solid 2px var(--brown-00);
+  border: solid 2px var(--brown-01);
   border-radius: var(--radius-01);
   background-color: transparent;
 }
 
 #login-access {
   height: 2.5rem;
-  border: solid 2px var(--pink-01);
+  border: solid 2px var(--pink-03);
   border-radius: var(--radius-01);
-  background-color: var(--pink-00);
+  background-color: var(--pink-01);
   font-size: var(--text-02);
   font-weight: 600;
   transition: 0.4s var(--bezier-00);
@@ -140,7 +140,7 @@
 #login-access:hover {
   cursor: pointer;
   border: solid 2px var(--pink-02);
-  background-color: var(--pink-01);
+  background-color: var(--pink-00);
   transform: scale(104%);
 }
 

@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;0,800;1,400&display=swap");
 
 :root {
-  --light-00: #f9f9f7;
-  --light-01: #f9f8f4;
+  --light-00: #fffff9;
+  --light-01: #f9f9f7;
   --pink-00: #f7e2e2;
   --pink-01: #fad8db;
   --pink-02: #f5bfc4;
@@ -40,7 +40,7 @@
 }
 
 *:focus {
-  outline: 2px solid var(--pink-02);
+  outline: 2px solid var(--pink-03);
 }
 
 body {
