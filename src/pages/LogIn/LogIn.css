@@ -8,6 +8,21 @@
   background-size: 24px 24px;
 }
 
+#login-form::before {
+  position: absolute;
+  top: -10rem;
+  left: 50%;
+  content: "";
+  width: 8.5rem;
+  height: 8.5rem;
+  background-image: url(/public/assets/img/logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: translateX(-50%);
+  filter: drop-shadow(0.1rem 0.1rem 0 var(--brown-00));
+}
+
 #login-form {
   position: absolute;
   top: 50%;
@@ -84,6 +99,10 @@
   width: 100%;
   aspect-ratio: 1/1;
   border-radius: 50%;
+}
+
+#login-user-display > div:nth-child(2) > img {
+  width: 110%;
 }
 
 #login-user-display > div > p {

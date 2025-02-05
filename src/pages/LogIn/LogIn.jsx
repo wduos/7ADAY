@@ -1,7 +1,7 @@
 import "./LogIn.css";
 import avatar from "/assets/img/avatar.jpg";
 import avatarB from "/assets/img/avatar_b.jpg";
-import guest from "/assets/img/guest-star.png";
+import guest from "/assets/img/hearts.png";
 import keys from "/assets/icons/keys.svg";
 import { useState } from "react";
 
